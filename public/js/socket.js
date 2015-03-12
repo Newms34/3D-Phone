@@ -5,13 +5,9 @@ var rotsX = [9.46, 9.46, 9.46, 9.46, 0, 0, 0, 0, 33.7, 0, 90];
 var rotsY = [0, 90, 270, 180, 90, 90, 270, 270, 180, 180, 0];
 
 //on page load, check if user is using a phone. If they are, this render will be the controller. Otherwise, it's the viewer
-function detectmob() {
-    if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
-        return true;
-    } else {
-        return false;
-    }
-}
+
+
+
 
 // enable vibration support
 navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;

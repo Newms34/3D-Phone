@@ -114,3 +114,21 @@ h1, h2, h3, p {
     left:50%;
     top:50%;
 }
+
+//medium+ screen sizes
+/*@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+}*/
+ 
+//small screen sizes
+/*@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+    }
+}*/

@@ -23,6 +23,13 @@ app.get('/',function(req,res,next){
     res.sendFile(__dirname+ '/views/index.html');
 });
 
+app.get('/mobile', function(req,res,next){
+    res.sendFile(__dirname+ '/views/mobile.html');
+});
+
+app.get('/desktop', function(req,res,next){
+    res.sendFile(__dirname+ '/views/desktop.html');
+});
 
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
