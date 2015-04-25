@@ -1,7 +1,15 @@
 # 3D-Phone
 -------
+![Badge of Honor](https://img.shields.io/badge/Built%20at-Fullstack-green.svg?style=flat-square)
+##Table of Contents:
+ - [About](#About)
+ - [Technology](#Technology)
+ - [Installation](#Installation)
+ - [Credits](#Credits)
+
+------
 ##About
->3D-Phone, otherwise known as zoomstack, is a proof-of-concept app in connecting the mobile deviceorientation event to pure CSS-3D (i.e., not using any external JavaScript 3d libraries, such as ThreeJS).
+- 3D-Phone, otherwise known as zoomstack, is a proof-of-concept app in connecting the mobile deviceorientation event to pure  CSS-3D (i.e., not using any external JavaScript 3d libraries, such as ThreeJS).
 
 ##Technology
 The technologies used in this project include:
